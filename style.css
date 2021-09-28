@@ -6,6 +6,7 @@ body {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
+  color:#ffffff;
 }
 
 .container {
@@ -42,6 +43,16 @@ img {
   max-height: 250px;
 }
 
+#listaFilmes{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-item{
+  display: flex;
+  flex-direction: column;
+}
+
 #listaFilmes img {
   margin: 10px;
   max-height: 250px;
@@ -53,8 +64,9 @@ img {
 
 .form-wrapper input {
   display: block;
-  margin: 0 auto;
+  margin: 8px auto;
   padding: 10px 15px;
+  border-radius: 5px;
 }
 
 .form-wrapper button {
