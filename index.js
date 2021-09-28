@@ -1,5 +1,14 @@
-var listaFilmes = ["https://upload.wikimedia.org/wikipedia/pt/9/92/Rise_of_the_Guardians_poster.jpg","https://upload.wikimedia.org/wikipedia/pt/9/97/BackFuturePoster.jpg"]
+function adicionarFilme() {
+  var filmeFavorito = document.getElementById("filme").value;
 
-for (let i = 0; i < listaFilmes.length; i++) {
-  document.write("<img src=" + listaFilmes[i] + ">")
+  if (filmeFavorito.endsWith(".jpg")) {
+    var elementoFilme = "<img src=" + filmeFavorito + ">";
+    var elementoLista = document.getElementById("listaFilmes");
+
+    elementoLista.innerHTML = elementoLista.innerHTML + elementoFilme;
+  } else{
+    console.error("Endereço de filme inválido")
+  }
+  document.getElementById("filme").value = "";
+
 }
