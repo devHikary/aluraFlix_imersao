@@ -2,8 +2,8 @@
 Projeto desenvolvido durante a ImersãoDev.
 
 ## Projeto inicial apresentado na aula
-Este projeto foi criado utilizando os métodos de array para listar os filmes e séries favoritos durante a aula 4.
-Na aula 5, utilizando funções e estrutura condicional foi implementado o botão de adicionar filmes com a url da imagem pelo input.
+Este projeto foi desenvolvido, durante a aula 4, utilizando o método "push" para incluir um novo elemento no array de filmes e séries, algumas ferramentas para alterar e manipular as listas e exibi-la no HTML.
+Na aula 5, foi refatorado o código utilizando funções e estrutura condicional. Também, foi implementado o botão de adicionar filmes com a url da imagem pelo input.
 
 ## ⚡Desafios implementados
 - Criar um campo e botão para adicionar a imagem pela tela, e não direto no código
@@ -20,3 +20,4 @@ Na aula 5, utilizando funções e estrutura condicional foi implementado o botã
 - Rodar com a extensão: Live Server
 
 ## Página do projeto
+https://devhikary.github.io/aluraFlix_imersao/
